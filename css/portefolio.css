@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'rise';
+  src: url('../font/RiseInsidE-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+/*****************************************
+****       En tête de la page         ****
+*****************************************/
+/**********Bloc de l'en tête*************/
+header{
+  height: 30%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+div,section{
+  width: 100%;
+}
+div{
+  color: white;
+}
+#bloc1{
+  height: 75%;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(9, 158, 195);
+  text-align: center;
+}
+#bloc2{
+  height: 25%;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(10, 127, 157) ;
+  text-align: center;
+}
+/********Ecriture de l'en tête***********/
+/**********Ecriture 1er Bloc*************/
+h1{
+  text-align: center;
+  padding-top: 4%;
+  font-family: 'rise';
+
+}
+#text1{
+  font-style: italic;
+}
+/*********Ecriture 2eme Bloc*************/
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav{
+  list-style-type: none;
+  display: inline-block;
+  padding: 1.5% 2%;
+}
+ul{
+  margin: 0;
+}
+
+a:hover,#onglet{
+    color: rgb(17, 39, 54);
+}
+
+/*****************************************
+****   Corps de la page portfolio     ****
+*****************************************/
+tr{
+  width: 50%;
+}
+td img {
+  width: 100%;
+}
+td{
+  font-weight: bold;
+  padding: 1%;
+}
+table{
+  padding: 5% 15% 0 15%;
+  text-align: center;
+}
+/*****************************************
+****     Corps de la page contact     ****
+*****************************************/
+/* image logo */
+.imglogo,.logo2{
+  height: 2%;
+  width: 2%;
+  vertical-align:middle; /* aligne l'image et le texte */
+}
+.logo{
+    list-style-type: none;
+    padding-top: 2%;
+}
+/* Texte mail, téléphone, twitter */
+.text2{
+  color: rgb(33, 77, 129);
+  font-weight: normal;
+}
+/* Texte de l'information générale */
+#text3,h3,.imglogo{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+  color: rgb(75, 74, 68)
+}
+.imglogo{
+  padding-right: 2%;
+}
+h3{
+  margin:0;
+  margin-top: 4%;
+}
+/*****************************************
+****     Corps de la page contact     ****
+*****************************************/
+#avatar{
+  border-radius: 100%;
+  height: 15%;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  display: block;
+}
+#lien1{
+  color: rgb(4, 109, 161);
+  font-weight: normal;
+}
+.text4,#title1{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#title1{
+  padding: 0;
+  margin-top: 5%;
+}
+/*****************************************
+****        En tête de la page        ****
+*****************************************/
+.logo2{
+  margin-top: 5%;
+}
+#copy{
+  font-size: 75%;
+  color:rgb(149, 146, 152);
+  text-align: center;
+}
+#center2{
+  text-align: center;
+}
