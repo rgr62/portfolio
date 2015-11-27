@@ -10,7 +10,11 @@ html,body{
   width: 100%;
   margin: 0;
   padding: 0;
+  background-image: url("../img/fond3.png");
+}
 
+body{
+  margin-top: -3%;
 }
 
 /*****************************************
@@ -90,6 +94,12 @@ table{
   padding: 5% 15% 0 15%;
   text-align: center;
 }
+.imgborder{
+  border: 2px solid rgb(240, 240, 240);
+  -moz-box-shadow: 0 0 0 2px #000;
+  -webkit-box-shadow: 0 0 0 2px black;
+  box-shadow: 0 0 0 2px black;
+}
 /*****************************************
 ****     Corps de la page contact     ****
 *****************************************/
@@ -97,7 +107,7 @@ table{
 .imglogo,.logo2{
   height: 2%;
   width: 2%;
-  vertical-align:middle; /* aligne l'image et le texte */
+  vertical-align: middle; /* aligne l'image et le texte */
 }
 .logo{
     list-style-type: none;
@@ -113,7 +123,7 @@ table{
   padding-left: 10%;
   padding-right: 10%;
   text-align: justify;
-  color: rgb(75, 74, 68)
+  color: rgb(42, 42, 40);
 }
 .imglogo{
   padding-right: 2%;
@@ -145,10 +155,10 @@ h3{
 }
 #title1{
   padding: 0;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 /*****************************************
-****        En tête de la page        ****
+****   Corps de la page A propos      ****
 *****************************************/
 .logo2{
   margin-top: 5%;
