@@ -10,7 +10,7 @@ html,body{
   width: 100%;
   margin: 0;
   padding: 0;
-  background-image: url("../img/fond3.png");
+  background-image: url("../img/fond.jpg");
 }
 
 body{
@@ -143,6 +143,7 @@ h3{
   margin-right: auto;
   margin-top: 2%;
   display: block;
+  border: 1px solid;
 }
 #lien1{
   color: rgb(4, 109, 161);
